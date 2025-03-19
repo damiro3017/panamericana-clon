@@ -96,7 +96,7 @@
   padding: 0.5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 880px) {
   /* Header desktop version */
   .header__navbar {
     position: static;
