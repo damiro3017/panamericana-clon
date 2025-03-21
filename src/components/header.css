@@ -11,7 +11,7 @@
 }
 
 .header__logo {
-  max-width: 15rem;
+  max-width: 10rem;
 }
 
 .header__navbar {
@@ -98,6 +98,10 @@
 
 @media screen and (min-width: 880px) {
   /* Header desktop version */
+  .header__logo {
+    max-width: 15rem;
+  }
+
   .header__navbar {
     position: static;
     display: flex;
