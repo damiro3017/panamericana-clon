@@ -29,6 +29,10 @@
   max-width: 1250px;
 }
 
+main {
+  background-color: var(--gray-light-clr);
+}
+
 /* Hero slider section */
 .hero__slider__container {
   display: none;
