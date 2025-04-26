@@ -23,6 +23,7 @@
 
 /* Hero slider section */
 .hero__slider__container {
+  display: none;
   position: relative;
   overflow: hidden;
 }
@@ -139,5 +140,10 @@
   .menu-item:hover .submenu {
     opacity: 1;
     visibility: visible;
+  }
+
+  /* Hero slider */
+  .hero__slider__container {
+    display: block;
   }
 }
