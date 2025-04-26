@@ -10,6 +10,7 @@
   --dark-blue-90: #182b3a90;
   --gray-clr: #767776;
   --gray-clr-90: #76777690;
+  --gray-light-clr: #e7e7e7;
   --white-clr: #fefffe;
 
   --default-transition: all ease-in-out 0.2s;
@@ -69,6 +70,56 @@
 
 .hero__slider__left-btn {
   left: 0.75rem;
+}
+
+/* Offers section */
+.offers__section h2{
+  font-size: 1.2rem;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.offers li {
+  padding: 1.25rem 1rem;
+  cursor: pointer;
+}
+
+.offers p {
+  margin-top: 0.75rem;
+}
+
+.offers-daily-special, .offers-submenu {
+border-radius: 0.5rem;
+background-color: var(--white-clr);
+}
+
+.offers-submenu {
+  display: flex;
+}
+
+.offers-submenu-item {
+  border-left: 1px solid var(--gray-clr-90);
+}
+
+.offers-submenu-item:first-child {
+  border-left: none;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  color: var(--primary-clr);
+  font-weight: 600;
+}
+
+.price-discount {
+  color: var(--gray-clr);
 }
 
 @media screen and (min-width: 880px) {
